@@ -1,2 +1,122 @@
-# autoecoledelagarebouffemont.github.io
-Site de l'Auto-École de la Gare.
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Auto-École de la Gare – Permis B à Bouffémont</title>
+<style>
+:root{--bg:#0b1220;--card:#121c2e;--line:#22304a;--text:#f2f5fa;--muted:#9fb0c8;--blue:#4db3f6;--ink:#06101f;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 18px}
+header b{display:block;font-size:15px}header small{color:var(--muted);font-size:12px;letter-spacing:.06em}
+.call{background:var(--blue);color:var(--ink);text-decoration:none;font-weight:700;padding:9px 14px;border-radius:8px;white-space:nowrap}
+section{padding:44px 18px;max-width:760px;margin:0 auto}
+.eyebrow{color:var(--blue);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+h1{font-size:38px;line-height:1.08;margin:12px 0}h2{font-size:28px;line-height:1.15;margin:10px 0 14px}
+h1 span,h2 span{color:var(--blue)}
+p{color:var(--muted);margin:0 0 14px}
+.btn{display:inline-block;background:var(--blue);color:var(--ink);text-decoration:none;font-weight:700;padding:13px 20px;border-radius:8px;margin:6px 8px 6px 0}
+.btn.alt{background:transparent;color:var(--text);border:1px solid var(--line)}
+.grid{display:grid;gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.card small{display:block;color:var(--muted);font-size:13px}.card strong{font-size:18px}
+.price{color:var(--blue);font-size:22px;font-weight:700;white-space:nowrap}
+h3{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:26px 0 12px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line)}
+.row b{white-space:nowrap}
+.note{background:var(--card);border-left:3px solid var(--blue);padding:14px 16px;border-radius:6px;color:var(--text);margin:18px 0}
+details{border-bottom:1px solid var(--line);padding:14px 0}summary{cursor:pointer;font-weight:600}details p{margin:10px 0 0}
+.alt-bg{background:var(--card)}
+footer{padding:28px 18px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>
+  <div><b>Auto-École de la Gare</b><small>BOUFFÉMONT · 95570</small></div>
+  <a class="call" href="tel:+33686917009">Appeler</a>
+</header>
+
+<section id="accueil">
+  <div class="eyebrow">Auto-école à Bouffémont</div>
+  <h1>Passez votre <span>permis B</span> à Bouffémont.</h1>
+  <p>Boîte manuelle ou automatique : des formules claires pour préparer votre permis à votre rythme. Un accompagnement à l’examen inclus dans les forfaits affichés.</p>
+  <a class="btn" href="#tarifs">Découvrir les formations</a>
+  <a class="btn alt" href="tel:+33686917009">06 86 91 70 09</a>
+</section>
+
+<section id="tarifs">
+  <div class="eyebrow">Tarifs · Permis B</div>
+  <h2>Les prix, <span>en toute clarté.</span></h2>
+  <p>Tarifs en euros, détaillés par transmission. Mis à jour le 12/01/2026.</p>
+
+  <h3>Boîte manuelle</h3>
+  <div class="grid">
+    <div class="card"><div><strong>Essentiel 20h</strong><small>20h de conduite + 1 accompagnement à l’examen</small></div><div class="price">1 050 €</div></div>
+    <div class="card"><div><strong>Confort 30h</strong><small>30h de conduite · accompagnement à l’examen inclus</small></div><div class="price">1 550 €</div></div>
+  </div>
+
+  <h3>Boîte automatique</h3>
+  <div class="grid">
+    <div class="card"><div><strong>Auto Essentiel 13h</strong><small>13h de conduite + 1 accompagnement à l’examen</small></div><div class="price">790 €</div></div>
+    <div class="card"><div><strong>Auto Confort 20h</strong><small>20h de conduite · accompagnement à l’examen inclus</small></div><div class="price">1 150 €</div></div>
+  </div>
+
+  <h3>Conduite &amp; accompagnement (à l’unité)</h3>
+  <div class="row"><span>Évaluation de départ · 45 min</span><b>56 €</b></div>
+  <div class="row"><span>Leçon de conduite · 45 min</span><b>56 €</b></div>
+  <div class="row"><span>Forfait 10 leçons</span><b>530 €</b></div>
+  <div class="row"><span>Rendez-vous pédagogique</span><b>55 €</b></div>
+  <div class="row"><span>Rendez-vous pré-examen</span><b>55 €</b></div>
+  <div class="row"><span>Accompagnement examen pratique</span><b>120 €</b></div>
+
+  <h3>Code &amp; démarches</h3>
+  <div class="row"><span>Livre d’apprentissage numérique · 1 an</span><b>10 €</b></div>
+  <div class="row"><span>Révision code en ligne · 6 mois</span><b>45 €</b></div>
+  <div class="row"><span>Démarches administratives</span><b>109 €</b></div>
+
+  <div class="note"><b>Paiement en 3 fois sans frais</b> possible. L’accompagnement à l’examen est inclus dans les forfaits affichés.</div>
+</section>
+
+<section id="infos" class="alt-bg" style="max-width:none">
+  <div style="max-width:724px;margin:0 auto">
+    <div class="eyebrow">Informations pratiques</div>
+    <h2>Bien préparer <span>son inscription.</span></h2>
+    <h3>Documents à fournir</h3>
+    <div class="row"><span>Pièce d’identité</span><b>✓</b></div>
+    <div class="row"><span>E-photo, ou photo d’identité + timbres</span><b>✓</b></div>
+    <div class="row"><span>Justificatif de domicile</span><b>✓</b></div>
+    <p style="margin-top:14px">D’autres pièces peuvent être demandées selon votre situation : appelez-nous.</p>
+
+    <h3>Horaires de l’auto-école</h3>
+    <!-- HORAIRES : modifier ce bloc -->
+    <div class="row"><span>Lundi au samedi</span><b>14h – 19h</b></div>
+    <!-- FIN HORAIRES -->
+  </div>
+</section>
+
+<section id="faq">
+  <div class="eyebrow">FAQ · Permis B</div>
+  <h2>Vos questions, <span>nos réponses.</span></h2>
+  <details open><summary>Quelles formules permis B sont proposées ?</summary><p>Des formules en boîte manuelle (Essentiel 20h, Confort 30h) et en boîte automatique (Essentiel 13h, Confort 20h). Les détails sont dans la section Tarifs.</p></details>
+  <details><summary>L’accompagnement à l’examen est-il compris dans les forfaits ?</summary><p>Oui, il est inclus dans les forfaits affichés.</p></details>
+  <details><summary>Peut-on régler en plusieurs fois ?</summary><p>Oui, le paiement en 3 fois sans frais est possible.</p></details>
+  <details><summary>Quels documents préparer pour l’inscription ?</summary><p>Une pièce d’identité, une e-photo (ou photo d’identité + timbres) et un justificatif de domicile.</p></details>
+  <details><summary>Où se trouve l’auto-école ?</summary><p>3 Allée de la Gare, 95570 Bouffémont.</p></details>
+</section>
+
+<section id="contact" class="alt-bg" style="max-width:none">
+  <div style="max-width:724px;margin:0 auto">
+    <div class="eyebrow">Un renseignement ?</div>
+    <h2>Contactez-nous <span>directement.</span></h2>
+    <p>Auto-École de la Gare<br>3 Allée de la Gare<br>95570 Bouffémont</p>
+    <p>E-mail : <a href="mailto:autoecoledelagarebouffemont95570@gmail.com" style="color:var(--blue)">autoecoledelagarebouffemont95570@gmail.com</a></p>
+    <a class="btn" href="tel:+33686917009">Appeler · 06 86 91 70 09</a>
+    <a class="btn alt" href="https://www.google.com/maps/search/?api=1&amp;query=3+Allée+de+la+Gare+95570+Bouffémont">Ouvrir l’itinéraire</a>
+  </div>
+</section>
+
+<footer>© Auto-École de la Gare · Bouffémont (95570)</footer>
+</body>
+</html>
